@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+:root,
+[data-theme="light"] {
+  --background: #FAFAF9;
+  --surface: #FFFFFF;
+  --surface-hover: #F5F4F2;
+  --foreground: #2B2724;
+  --muted: #7A7570;
+  --primary: #FF7A59;
+  --primary-foreground: #FFFFFF;
+  --secondary: #2FBF8F;
+  --border: #ECE9E6;
+  --shadow: rgba(43, 39, 36, 0.08);
+  --gradient: linear-gradient(135deg, #FFB199, #FF7A59);
+}
+
+[data-theme="dark"] {
+  --background: #171412;
+  --surface: #211D1A;
+  --surface-hover: #2A2521;
+  --foreground: #F3EFEC;
+  --muted: #A69E97;
+  --primary: #FF8F73;
+  --primary-foreground: #171412;
+  --secondary: #4FD8A8;
+  --border: #332D28;
+  --shadow: rgba(0, 0, 0, 0.4);
+  --gradient: linear-gradient(135deg, #FF8F73, #E85C3F);
+}
+
+[data-theme="pink"] {
+  --background: #FFF3F6;
+  --surface: #FFFFFF;
+  --surface-hover: #FFE7EE;
+  --foreground: #4A2A34;
+  --muted: #9C6E7C;
+  --primary: #E8577E;
+  --primary-foreground: #FFFFFF;
+  --secondary: #2FBF8F;
+  --border: #FBD6E1;
+  --shadow: rgba(232, 87, 126, 0.15);
+  --gradient: linear-gradient(135deg, #FFB6C9, #E8577E);
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  transition: background-color 300ms ease, color 300ms ease;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
