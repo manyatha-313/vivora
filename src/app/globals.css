@@ -3,30 +3,30 @@
 :root,
 [data-theme="light"] {
   --background: #FAFAF9;
-  --surface: #FFFFFF;
+  --surface: #ffffff;
   --surface-hover: #F5F4F2;
-  --foreground: #2B2724;
+  --foreground: #463b33;
   --muted: #7A7570;
-  --primary: #FF7A59;
+  --primary: #f85369;
   --primary-foreground: #FFFFFF;
   --secondary: #2FBF8F;
   --border: #ECE9E6;
   --shadow: rgba(43, 39, 36, 0.08);
-  --gradient: linear-gradient(135deg, #FFB199, #FF7A59);
+  --gradient: linear-gradient(135deg, #FFB199, #f75570);
 }
 
 [data-theme="dark"] {
-  --background: #171412;
-  --surface: #211D1A;
-  --surface-hover: #2A2521;
+  --background: #291c26;
+  --surface: #251d24;
+  --surface-hover: #3d1e30;
   --foreground: #F3EFEC;
   --muted: #A69E97;
-  --primary: #FF8F73;
+  --primary: #d63975;
   --primary-foreground: #171412;
   --secondary: #4FD8A8;
   --border: #332D28;
   --shadow: rgba(0, 0, 0, 0.4);
-  --gradient: linear-gradient(135deg, #FF8F73, #E85C3F);
+  --gradient: linear-gradient(135deg, #ec6498, #f75570);
 }
 
 [data-theme="pink"] {
